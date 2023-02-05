@@ -1,0 +1,135 @@
+name: projectodc
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  animated_splash_screen:
+  flutter_app_icons:
+  flutter_rating_bar: ^4.0.1
+  clippy_flutter: ^2.0.0-nullsafety.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - lib/assets/Untitled design (4).jpg
+     - lib/assets/Burger-Transparent-Images.png
+       #---------------prodect------------
+     - lib/assets/prodect/product/3e732a48a046e77c8b815d083ad1f768650x300.jpg
+     - lib/assets/prodect/product/5dd2ceac3468f.jpg
+     - lib/assets/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg
+     - lib/assets/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg
+     - lib/assets/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg
+     - lib/assets/prodect/product/132659a54db998ff1d9d141fd47eced6_w750_h750.jpg
+     - lib/assets/prodect/product/2017716113116493X.jpg
+     - lib/assets/prodect/product/b1dd498275fbb203a8305e74cfa22f5c43f5a104.jpg
+     - lib/assets/prodect/product/download.jpg
+     - lib/assets/prodect/product/download (1).jpg
+     - lib/assets/prodect/product/download (1).jpg
+     - lib/assets/prodect/product/e50a60d225f29aad8fdaa0cee7fc40f74320d9fc.jpg
+     - lib/assets/prodect/product/hqdefault.jpg
+     - lib/assets/prodect/product/png-clipart-dish-pizza-vinaigrette-fish-delivery-grilled-salmon-food-recipe-thumbnail.png
+     - lib/assets/prodect/product/pro1.jpg
+     - lib/assets/prodect/product/pro2.jpg
+     - lib/assets/prodect/product/pro3.jpg
+     - lib/assets/prodect/product/tbl_articles_article_23574_40589a60165-7880-4bda-a774-de24458bd85b.jpg
+     - lib/assets/prodect/product/إعداد_وجبات_سريعة.jpg
+     - lib/assets/prodect/product/الحمص.jpeg
+     - lib/assets/prodect/product/الحمص.jpeg
+     - lib/assets/prodect/product/الكبة-النية.jpeg
+     - lib/assets/prodect/product/المحمرة.jpeg
+     - lib/assets/prodect/product/طريقة_عمل_مشروبات_ساخنة_وباردة.jpg
+     - lib/assets/prodect/product/فوائد_تناول_السمك_المشوي.jpg
+     - lib/assets/prodect/product/قطع-من-اللحم-و-الدجاج-على-اللهب-AR05132020-1024x640.jpg
+     - lib/assets/prodect/product/وجبات_خفيفة_وسريعة.jpg
+    #------------------categry---------------------
+     - lib/assets/categry/category/cat1.png
+     - lib/assets/categry/category/cat2.png
+     - lib/assets/categry/category/cat3.png
+     - lib/assets/categry/category/cat4.png
+     - lib/assets/categry/category/cat5.png
+     - lib/assets/categry/category/cat6.png
+     - lib/assets/categry/category/cat7.png
+     - lib/assets/categry/category/cat8.png
+     - lib/assets/categry/category/cat9.png
+     - lib/assets/categry/category/cat10.png
+       #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+    # fonts:
+       # - family: GE_ar
+       #   fonts:
+    #   - asset: fonts/GE_SS_Two_Light.otf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
