@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:projectodc/widget/AppBarWidget.dart';
+import 'package:projectodc/widget/CartPage.dart';
 import 'package:projectodc/widget/Categorywidget.dart';
 import 'package:projectodc/widget/Drawerwidet.dart';
 import 'package:projectodc/widget/NewstItemswidet.dart';
@@ -121,7 +122,9 @@ class _HomepageState extends State<Homepage> {
           ],),
         child: FloatingActionButton(
           onPressed: () {
-            Navigator.pushNamed(context, "CartPage");
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => const CartPage()),
+            );
           },
           child: Icon(
             Icons.shopping_cart,

@@ -29,7 +29,7 @@ class CartPage extends StatelessWidget {
                     Text(
                       "Oerder Lest",
                       style: TextStyle(
-                        fontSize: 3,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                     ),
                     ),
@@ -55,7 +55,10 @@ class CartPage extends StatelessWidget {
                         children: [
                           Container(
                             alignment: Alignment.center,
-                            child: Image.asset("",height: 80,width: 150,),
+                            child: Image.asset("lib/assets/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg"
+                              ,height: 80,
+                              width: 150,
+                            ),
                           ),
                           Container(
                             width: 190,
@@ -63,7 +66,7 @@ class CartPage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                              mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                Text("Hot order",style:
+                                Text("Orange+green frash",style:
                                 TextStyle(
                                     fontSize: 15,
                                     fontWeight: FontWeight.bold
@@ -71,7 +74,7 @@ class CartPage extends StatelessWidget {
                                 ),
 
                                 Text(
-                                  "\$10"
+                                  "\$50"
                                   ,style:
                                 TextStyle(
                                     fontSize: 20,
@@ -85,7 +88,7 @@ class CartPage extends StatelessWidget {
                           ),
                           Padding(padding: EdgeInsets.symmetric(vertical: 10,),
                           child: Container(
-                            padding: EdgeInsets.all(5),
+                            padding: EdgeInsets.all(2),
                             decoration: BoxDecoration(
                                 color: Colors.red,
                                 borderRadius: BorderRadius.circular(10),
@@ -95,9 +98,9 @@ class CartPage extends StatelessWidget {
                               children: [
                                 Icon(Icons.exposure_minus_1,color: Colors.white,),
                                 Text(
-                                  "2",
+                                  "0",
                                   style: TextStyle(
-                                      fontSize: 18,
+                                      fontSize: 20,
                                       fontWeight: FontWeight.bold,
                                     color: Colors.white
                                   ),
@@ -131,7 +134,7 @@ class CartPage extends StatelessWidget {
                         children: [
                           Container(
                             alignment: Alignment.center,
-                            child: Image.asset("",height: 80,width: 150,),
+                            child: Image.asset("lib/assets/prodect/product/5dd2ceac3468f.jpg",height: 80,width: 150,),
                           ),
                           Container(
                             width: 190,
@@ -139,15 +142,15 @@ class CartPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                Text("Hot order",style:
+                                Text("Perger Hot",style:
                                 TextStyle(
-                                    fontSize: 15,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.bold
                                 ),
                                 ),
 
                                 Text(
-                                  "\$10"
+                                  "\$50"
                                   ,style:
                                 TextStyle(
                                   fontSize: 20,
@@ -161,7 +164,7 @@ class CartPage extends StatelessWidget {
                           ),
                           Padding(padding: EdgeInsets.symmetric(vertical: 10,),
                             child: Container(
-                              padding: EdgeInsets.all(5),
+                              padding: EdgeInsets.all(2),
                               decoration: BoxDecoration(
                                 color: Colors.red,
                                 borderRadius: BorderRadius.circular(10),
@@ -171,9 +174,9 @@ class CartPage extends StatelessWidget {
                                 children: [
                                   Icon(Icons.exposure_minus_1,color: Colors.white,),
                                   Text(
-                                    "2",
+                                    "0",
                                     style: TextStyle(
-                                        fontSize: 18,
+                                        fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white
                                     ),

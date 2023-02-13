@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectodc/widget/cradet.dart';
 class cartBottomNavBar extends StatelessWidget {
   const cartBottomNavBar({Key? key}) : super(key: key);
 
@@ -32,7 +33,11 @@ class cartBottomNavBar extends StatelessWidget {
           ],
           ),
           ElevatedButton(
-            onPressed: (){},
+            onPressed: (){
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CradetCard()));
+              },
+
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Colors.red),
               padding: MaterialStateProperty.all(

@@ -40,6 +40,7 @@ dependencies:
   flutter_app_icons:
   flutter_rating_bar: ^4.0.1
   clippy_flutter: ^2.0.0-nullsafety.1
+  awesome_card:
 
 dev_dependencies:
   flutter_test:

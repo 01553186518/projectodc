@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:projectodc/get-start/get-start.dart';
+import 'package:projectodc/homepage/Home-bage.dart';
+import 'package:projectodc/widget/CartPage.dart';
 class Drawerwidet extends StatelessWidget {
   const Drawerwidet({Key? key}) : super(key: key);
 
@@ -27,6 +30,10 @@ class Drawerwidet extends StatelessWidget {
         )
         ),
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Homepage()));
+          },
           leading: Icon(Icons.home,color: Colors.red,),
           title: Text(
             "Home",
@@ -37,7 +44,13 @@ class Drawerwidet extends StatelessWidget {
           ),
         ),
 
+
+
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Homepage()));
+          },
           leading: Icon(
             Icons.person,
             color: Colors.red,
@@ -52,6 +65,10 @@ class Drawerwidet extends StatelessWidget {
         ),
 
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => CartPage()));
+          },
           leading: Icon(Icons.shopping_cart_rounded,color: Colors.red,),
           title: Text(
             "My Order",
@@ -63,6 +80,10 @@ class Drawerwidet extends StatelessWidget {
         ),
 
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => CartPage()));
+          },
           leading: Icon(Icons.favorite,color: Colors.red,),
           title: Text(
             "My wish List",
@@ -74,6 +95,10 @@ class Drawerwidet extends StatelessWidget {
         ),
 
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Homepage()));
+          },
           leading: Icon(Icons.settings,color: Colors.red,),
           title: Text(
             "Seting",
@@ -85,6 +110,10 @@ class Drawerwidet extends StatelessWidget {
         ),
 
         ListTile(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => GetStart()));
+          },
           leading: Icon(Icons.exit_to_app,color: Colors.red,),
           title: Text(
             "Log Out",
