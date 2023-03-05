@@ -31,6 +31,7 @@ class popularItemWidgwt extends StatelessWidget {
                 ),
               ]
             ),
+
             child: Padding(padding: EdgeInsets.symmetric(horizontal: 10,),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

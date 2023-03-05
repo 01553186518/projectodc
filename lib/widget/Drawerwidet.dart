@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:projectodc/get-start/get-start.dart';
 import 'package:projectodc/homepage/Home-bage.dart';
-import 'package:projectodc/widget/CartPage.dart';
+import 'package:projectodc/widget/seting.dart';
 class Drawerwidet extends StatelessWidget {
-  const Drawerwidet({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +48,7 @@ class Drawerwidet extends StatelessWidget {
         ListTile(
           onTap: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => Homepage()));
+                MaterialPageRoute(builder: (context) => seting()));
           },
           leading: Icon(
             Icons.person,
@@ -67,11 +66,11 @@ class Drawerwidet extends StatelessWidget {
         ListTile(
           onTap: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => CartPage()));
+                MaterialPageRoute(builder: (context) => GetStart()));
           },
-          leading: Icon(Icons.shopping_cart_rounded,color: Colors.red,),
+          leading: Icon(Icons.restaurant_menu,color: Colors.red,),
           title: Text(
-            "My Order",
+            "Menu",
             style: TextStyle(
               fontSize: 18 ,
               fontWeight: FontWeight.bold,
@@ -81,12 +80,11 @@ class Drawerwidet extends StatelessWidget {
 
         ListTile(
           onTap: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => CartPage()));
-          },
-          leading: Icon(Icons.favorite,color: Colors.red,),
+         //  launch('https://besosayed.000webhostapp.com');//url web
+            },
+          leading: Icon(Icons.image,color: Colors.red,),
           title: Text(
-            "My wish List",
+            "Gallery",
             style: TextStyle(
               fontSize: 18 ,
               fontWeight: FontWeight.bold,
@@ -99,9 +97,9 @@ class Drawerwidet extends StatelessWidget {
             Navigator.push(context,
                 MaterialPageRoute(builder: (context) => Homepage()));
           },
-          leading: Icon(Icons.settings,color: Colors.red,),
+          leading: Icon(Icons.info_rounded,color: Colors.red,),
           title: Text(
-            "Seting",
+            "Contact",
             style: TextStyle(
               fontSize: 18 ,
               fontWeight: FontWeight.bold,
@@ -127,4 +125,7 @@ class Drawerwidet extends StatelessWidget {
       ),
     );
   }
+
+
 }
+

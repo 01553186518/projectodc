@@ -1,3 +1,5 @@
+import 'package:badges/badges.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({Key? key}) : super(key: key);
@@ -30,8 +32,28 @@ class AppBarWidget extends StatelessWidget {
                 ],
               ),
               child: const Icon(Icons.short_text),
+
+            ),
+          ),Container(
+            padding: EdgeInsets.all(8),
+            decoration: BoxDecoration(color: Colors.white),
+            child:Badge(
+            badgeContent: Text("5"),
+            badgeStyle: BadgeStyle(badgeColor: Colors.black38,padding: EdgeInsets.all(6),
+////////////padgecart//////////////////////////
+            ),
+              child:
+            InkWell(
+              onTap: (){},
+              child: Icon(
+                CupertinoIcons.cart,
+                size: 30,
+                color:
+              Colors.black.withOpacity(0.5),
+              ),
             ),
           ),
+          )
         ],
       ),
     );

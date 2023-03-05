@@ -1,5 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:projectodc/widget/CartPage.dart';
+import 'package:projectodc/widget/CartPage1.dart';
+import 'package:projectodc/widget/CartPage10.dart';
+import 'package:projectodc/widget/CartPage2.dart';
+import 'package:projectodc/widget/CartPage3.dart';
+import 'package:projectodc/widget/CartPage4.dart';
+import 'package:projectodc/widget/CartPage5.dart';
+import 'package:projectodc/widget/CartPage6.dart';
+import 'package:projectodc/widget/CartPage7.dart';
+import 'package:projectodc/widget/CartPage8.dart';
+
+import 'CartPage9.dart';
 class NewstItemswidet extends StatelessWidget {
   const NewstItemswidet({Key? key}) : super(key: key);
 //newested item////
@@ -32,7 +44,11 @@ class NewstItemswidet extends StatelessWidget {
             child:
             Row(
               children: [InkWell(
-                onTap: (){},
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const CartPage1()),
+                  );
+                },
                 child: Container(alignment: Alignment.center,
                 child:
                 Image.asset("lib/assets/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg",
@@ -117,7 +133,14 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage2()),
+                    );
+                  },
+
+                  ////////
+
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/download.jpg",
@@ -200,7 +223,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage3()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/5dd2ceac3468f.jpg",
@@ -283,7 +310,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage4()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/132659a54db998ff1d9d141fd47eced6_w750_h750.jpg",
@@ -366,8 +397,10 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){
-
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage5()),
+                    );
                   },
                   child: Container(alignment: Alignment.center,
                     child:
@@ -451,7 +484,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage6()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/pro3.jpg",
@@ -534,7 +571,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage7()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/الحمص.jpeg",
@@ -617,7 +658,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage8()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/فوائد_تناول_السمك_المشوي.jpg",
@@ -700,7 +745,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage9()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/طريقة_عمل_مشروبات_ساخنة_وباردة.jpg",
@@ -783,7 +832,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage10()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/إعداد_وجبات_سريعة.jpg",
@@ -866,7 +919,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/tbl_articles_article_23574_40589a60165-7880-4bda-a774-de24458bd85b.jpg",
@@ -949,7 +1006,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/pro2.jpg",
@@ -1032,7 +1093,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/hqdefault.jpg",
@@ -1115,7 +1180,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/e50a60d225f29aad8fdaa0cee7fc40f74320d9fc.jpg",
@@ -1198,7 +1267,11 @@ class NewstItemswidet extends StatelessWidget {
               child:
               Row(
                 children: [InkWell(
-                  onTap: (){},
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CartPage()),
+                    );
+                  },
                   child: Container(alignment: Alignment.center,
                     child:
                     Image.asset("lib/assets/prodect/product/download (1).jpg",

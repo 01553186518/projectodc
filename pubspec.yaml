@@ -41,10 +41,18 @@ dependencies:
   flutter_rating_bar: ^4.0.1
   clippy_flutter: ^2.0.0-nullsafety.1
   awesome_card:
+  inkwell_splash: ^0.1.0
+  babstrap_settings_screen:
+  badges: ^3.0.2
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  cloud_firestore: ^4.4.3
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -107,6 +115,7 @@ flutter:
      - lib/assets/categry/category/cat8.png
      - lib/assets/categry/category/cat9.png
      - lib/assets/categry/category/cat10.png
+     - lib/assets/FB_IMG_1656177490915.jpg
        #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
